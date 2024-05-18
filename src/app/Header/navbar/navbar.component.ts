@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
   imageUrl = "assets/swiggy-logo.jpg"
-  loginUrl = "./assets/images/login-signup/profile-login.png"
-  signupUrl = "./assets/images/login-signup/profile-signUp.png"
+  loginUrl = "./assets/profile-login.png"
+  signupUrl = "./assets/profile-signUp.png"
 }
