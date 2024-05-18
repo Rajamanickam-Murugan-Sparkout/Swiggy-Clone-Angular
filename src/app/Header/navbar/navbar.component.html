@@ -1,17 +1,17 @@
-<nav class="navbar navbar-expand-lg border-bottom">
+<nav class="navbar navbar-expand-md border-bottom">
   <div class="container-fluid">
     <div>
       <img [src]="imageUrl" width="150px" height="100" alt="logo">
     </div>
     <div>
       <div>
-        <button class="btn border rounded rounded-5 px-4 me-2 py-2" type="submit">
-          <img [src]="loginUrl" alt="login-icon" width="18px" height="18px" class="me-1">
-          Login
+        <button class="btn border rounded rounded-5 px-md-4 me-2 me-md-2 py-md-2 d-inline-flex" type="submit">
+          <img [src]="loginUrl" alt="login-icon" width="18px" height="18px" class="me-md-1 mt-md-1">
+          <small class="fs-6 d-none d-md-block">Login</small>
         </button>
-        <button class="btn border rounded rounded-5 px-4 me-5 py-2" type="submit">
-          <img [src]="signupUrl" alt="login-icon" width="18px" height="18px" class="me-1">
-          SignUp
+        <button class="btn border rounded rounded-5 px-md-4 me-md-5 py-md-2 d-inline-flex" type="submit">
+          <img [src]="signupUrl" alt="login-icon" width="18px" height="18px" class="me-md-1 mt-md-1">
+          <small class="fs-6 d-none d-md-block">SignUp</small> 
         </button>
       </div>
     </div>
